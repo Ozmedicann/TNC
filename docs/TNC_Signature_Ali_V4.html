@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Email Signature</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style type="text/css">
+    img { outline: none; text-decoration: none; border: none; }
+    p { margin: 0px !important; }
+    a { color: #1a2141 !important; text-decoration: none !important; font-family: 'Poppins', Arial, sans-serif !important; }
+    table { border-collapse: collapse; width: 100%; max-width: 450px; }
+
+    /* Contact Info Box */
+    .contact-box {
+        width: 100%;
+        background: #eae8e7;
+        border-radius: 10px;
+        padding: 15px;
+        font-family: 'Poppins', Arial, sans-serif !important;
+    }
+
+    /* Logo Container */
+    .logo-container {
+        text-align: right;
+        vertical-align: middle;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    /* Text Styling */
+    .name {
+        font-size: 18px;
+        font-weight: 600;
+        color: #1a2141;
+    }
+    
+    .title {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1a2141;
+    }
+
+    .contact-details {
+        font-size: 14px;
+        font-weight: 400;
+        color: #1a2141;
+    }
+
+    /* Social Media Icons */
+    .social-icons {
+        width: auto;
+        text-align: right;
+    }
+
+    .social-icons td {
+        padding-left: 10px; /* Adjusted for spacing */
+    }
+
+    /* Divider Line */
+    .divider {
+        height: 1px;
+        background: #8c8c8c;
+        margin: 1px 15px;
+    }
+
+    /* Icon Styles */
+    .icon {
+        font-size: 12px;
+        margin-right: 6px;
+        color: #1a2141;
+        font-family: 'Font Awesome 6 Free', sans-serif;
+    }
+
+    @media only screen and (max-width: 480px) {
+        .name { font-size: 16px !important; }
+        .title { font-size: 13px !important; }
+        .contact-details { font-size: 12px !important; }
+    }
+</style>
+</head>
+
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="500" class="contact-box">
+    <tbody>
+        <tr>
+            <!-- Left: Name & Title -->
+            <td valign="middle" style="padding: 15px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td style="padding-bottom: 3px;">
+                                <span class="name">Ali Lawrence</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 0px;">
+                                <span class="title">Operations Manager</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+
+            <!-- Right: Logo -->
+            <td class="logo-container">
+                <img src="https://thenewclinic.com.au/wp-content/uploads/2025/03/TNC_Blue_RGB.png" alt="The New Clinic" width="160"/>
+            </td>
+        </tr>
+        
+        <!-- Divider -->
+        <tr><td colspan="2"><div class="divider"></div></td></tr>
+
+        <!-- Contact Info & Social Media (Split into two columns) -->
+        <tr>
+            <!-- Contact Details (Left - 70%) -->
+            <td style="padding: 15px; width: 70%;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td style="padding-bottom: 2px;">
+                                <span class="contact-details">
+                                    <i class="fas fa-building icon"></i> 1300 375 384 &nbsp;&nbsp;&nbsp;
+                                    <i class="fas fa-mobile-alt icon"></i> 0401 910 216
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 2px;">
+                                <a href="mailto:alil@thenewclinic.com.au" class="contact-details">
+                                    <i class="fas fa-envelope icon"></i> alil@thenewclinic.com.au
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 0px;">
+                                <a href="http://www.thenewclinic.com.au" target="_blank" class="contact-details">
+                                    <i class="fas fa-globe icon"></i> www.thenewclinic.com.au
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+
+            <!-- Social Media Icons (Right - 30%) -->
+<td style="padding: 15px; width: 30%; text-align: right; vertical-align: bottom;">
+    <table border="0" cellspacing="0" cellpadding="0" style="display: inline-block; vertical-align: bottom;">
+        <tbody>
+            <tr>
+                <td style="padding-left: 25px;">
+                    <a href="https://www.facebook.com/profile.php?id=61564553444218" target="_blank">
+                        <img src="https://thenewclinic.com.au/wp-content/uploads/2025/03/FB_Icon_30px.png" width="22" height="22" alt="Facebook"/>
+                    </a>
+                </td>
+                <td style="padding-left: 27px;">
+                    <a href="https://www.instagram.com/the.new.clinic/" target="_blank">
+                        <img src="https://thenewclinic.com.au/wp-content/uploads/2025/03/IG_Icon_30px.png" width="22" height="22" alt="Instagram"/>
+                    </a>
+                </td>
+                <td style="padding-left: 27px;">
+                    <a href="https://www.linkedin.com/company/the-new-clinic" target="_blank">
+                        <img src="https://thenewclinic.com.au/wp-content/uploads/2025/03/LI_Icon_30px.png" width="22" height="22" alt="LinkedIn"/>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+        </tr>
+
+
+    </tbody>
+</table>
+</body>
+</html>
